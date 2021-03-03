@@ -12,8 +12,8 @@ const About = () => {
     <div>
       <div className={'main-left'}>
         <h1>Manami Davidson</h1>
-        <h2>Web Developer</h2>
-        <p>I am a dedicate and proactive person with love of learning.</p>
+        <h3>Web Developer</h3>
+        <p>HTML | CSS | JavaScript | Bootstrap | Git | Github</p>
       </div>
       <div className={'main-right'}>
         <img src={topImage} alt="beach and combi" style={topImageStyle} />

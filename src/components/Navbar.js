@@ -17,17 +17,35 @@ import styled from 'styled-components'
 //       color: white;
 //     `};
 // `
-const Ul = styled.ul`
-  list-style-type: none;
-  padding: 0; 
-  margin: 0; 
+const Nav = styled.nav`
+display: flex;
+justify-content: space-between;
+padding: 0, 10px;
+// *{
+//   border: 1px solid red;
+// }
+ul{
+  display: flex;
+  justify-content: space-evenly;
+    list-style-type: none;
+  } 
+  .nav-left{
+    width: 20%;
+  }
+  .nav-right{
+    width: 30%;
+  }
 `
 
 const Navbar = () => {
   return (
 
-    <div>
-      <Ul>
+    <Nav>
+      <ul className="nav-left">
+        <li><a href="https://github.com/manami-d"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/manami-davidson/"><i class="fab fa-linkedin-in"></i></a></li>
+      </ul>
+      <ul className="nav-right">
         <li>
           {/* <Button>Home</Button> */}
           <Link to="/">Home</Link>
@@ -40,9 +58,9 @@ const Navbar = () => {
         <li>
           <Link to="/contact">Contact</Link>
         </li>
-      </Ul>
+      </ul>
       
-    </div>
+    </Nav>
   )
 }
 
