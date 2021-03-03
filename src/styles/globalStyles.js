@@ -5,4 +5,11 @@ export const GlobalStyles = styled.main`
   display: flex;
   justify-content: center;
   text-align: center;
+  a{
+    color: black;
+    text-decoration: none;
+  };
+  a:hover{
+    color: grey;
+  };
 `
