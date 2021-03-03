@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components'
-
+import NavLinks from './NavLinks';
 // const Button = styled.button`
 //   background: transparent;
 //   border-radius: 3px;
