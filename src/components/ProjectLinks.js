@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const ProjectLinks = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+    return <div></div>;
+};
 
-export default ProjectLinks
+export default ProjectLinks;
