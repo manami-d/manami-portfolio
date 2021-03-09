@@ -4,21 +4,24 @@ import styled from 'styled-components';
 import { styledPage } from '../styles/globalStyles';
 
 const StyledAbout = styled(styledPage)`
-    background: red;
+    background: white;
 `;
 
 const About = () => {
     const topImageStyle = {
         width: '30%',
-        height: '30%'0
+        height: '30%'
     };
 
     return (
         <StyledAbout>
             <div className={'main-left'}>
                 <h1>Manami Davidson</h1>
+                <br />
                 <h3>Web Developer</h3>
+                <br />
                 <p>HTML | CSS | JavaScript | Bootstrap | Git | Github</p>
+                <br />
             </div>
             <div className={'main-right'}>
                 <img src={topImage} alt="beach and combi" style={topImageStyle} />

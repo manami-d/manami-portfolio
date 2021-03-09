@@ -1,22 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import NavLinks from './NavLinks';
-// const Button = styled.button`
-//   background: transparent;
-//   border-radius: 3px;
-//   border: 2px solid palevioletred;
-//   color: palevioletred;
-//   margin: 0 1em;
-//   padding: 0.25em 1em;
+// import NavLinks from './NavLinks';
 
-//   ${props =>
-//     props.primary &&
-//     css`
-//       background: palevioletred;
-//       color: white;
-//     `};
-// `
 const Nav = styled.nav`
     display: flex;
     align-items: center;
@@ -55,12 +41,9 @@ const Navbar = () => {
             </ul>
             <ul className="nav-right">
                 <li>
-                    {/* <Button>Home</Button> */}
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    {/* <Button promary>Projects</Button> */}
-
                     <Link to="/projects">Projects</Link>
                 </li>
                 <li>
