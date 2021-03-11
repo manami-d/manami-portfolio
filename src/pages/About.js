@@ -9,8 +9,7 @@ const StyledAbout = styled(styledPage)`
 
 const About = () => {
     const topImageStyle = {
-        width: '30%',
-        height: '30%'
+        width: '30vw'
     };
 
     return (
