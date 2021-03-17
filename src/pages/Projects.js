@@ -2,7 +2,7 @@ import React from 'react';
 import portfolioImg from '../img/portfolio.png';
 import todoappImg from '../img/todoapp.png';
 import recipewebsiteImg from '../img/recipewebsite.png';
-import weatherappImg from '../img/weatherApp.png';
+import weatherappImg from '../img/weatherapi.png';
 import styled from 'styled-components';
 import { Card } from 'react-bootstrap';
 
@@ -10,20 +10,20 @@ import { Card } from 'react-bootstrap';
 const StyledProjects = styled.section`
     min-height: 80vh;
     width: 100vw;
-    h1 {
+    /* h1 {
         margin: 2rem 0 1rem 0;
         font-size: 3.2rem;
-    }
+    } */
     .cardBodyStyle {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         width: 100%;
-        div {
-            font-size: 1.68rem;
-        }
+        /* div {
+            font-size: 1.5rem;
+        } */
         a {
-            color: blue;
+            color: darkblue;
         }
     }
     .wrapper {
@@ -35,18 +35,17 @@ const StyledProjects = styled.section`
     }
     .project {
         width: 90vw;
-        height: 45vh;
-        margin: 2.5vw;
-        padding: 2rem;
+        height: 40vh;
+        margin: 0 2.5vw;
+        /* padding: 1rem; */
         display: flex;
         flex-direction: column;
         justify-content: center;
-        border: 1px solid black;
         background: rgba(255, 255, 255, 0.6);
     }
     .img {
         padding: 1rem;
-        margin: auto;
+        margin: 0 auto;
         width: 75%;
         max-height: 50%;
         object-fit: contain;
@@ -62,12 +61,12 @@ const StyledProjects = styled.section`
     }
     //desktop
     @media only screen and (min-width: 1200px) {
-        .project {
+        /* .project {
             margin-top: 2.5rem;
-        }
+        } */
         .project {
             width: 40vw;
-            margin: 2.5vw;
+            /* margin: 2vw; */
         }
     }
 `;
