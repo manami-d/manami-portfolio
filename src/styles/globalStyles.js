@@ -22,7 +22,7 @@ export const GlobalStyles = styled.main`
     }
     .contact-page {
         min-height: 80vh;
-        width: 99vw;
+        width: 100vw;
     }
 `;
 
