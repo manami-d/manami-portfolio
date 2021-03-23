@@ -22,6 +22,24 @@ const Nav = styled.nav`
     .nav-right {
         width: 30%;
     }
+    //mobile
+    @media only screen and (max-width: 719px) {
+        .mob-icon {
+            display: inline-block;
+        }
+        span {
+            display: none;
+        }
+    }
+    //tablet and desktop
+    @media only screen and (min-width: 720px) {
+        .mob-icon {
+            display: none;
+        }
+        span {
+            display: inline-block;
+        }
+    }
 `;
 
 const Navbar = () => {
@@ -41,13 +59,22 @@ const Navbar = () => {
             </ul>
             <ul className="nav-right">
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/">
+                        <i className="mob-icon fas fa-home"></i>
+                        <span>Home</span>
+                    </Link>
                 </li>
                 <li>
-                    <Link to="/projects">Projects</Link>
+                    <Link to="/projects">
+                        <i className="mob-icon fas fa-laptop"></i>
+                        <span>Projects</span>
+                    </Link>
                 </li>
                 <li>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/contact">
+                        <i className="mob-icon fa fa-envelope" aria-hidden="true"></i>
+                        <span>Contact</span>
+                    </Link>
                 </li>
             </ul>
         </Nav>
