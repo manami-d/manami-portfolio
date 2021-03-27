@@ -5,6 +5,9 @@ import ProjectLinks from '../components/ProjectLinks';
 const StyledProjects = styled.section`
     min-height: 80vh;
     width: 100vw;
+    h1 {
+        margin-top: 10px;
+    }
     .cardBodyStyle {
         display: flex;
         flex-direction: column;
@@ -44,7 +47,6 @@ const StyledProjects = styled.section`
     }
     //tablet
     @media only screen and (min-width: 720px) {
-        /* font-size: 1.5rem; */
         .img {
             width: 25vw;
             max-height: 25vw;
@@ -52,12 +54,8 @@ const StyledProjects = styled.section`
     }
     //desktop
     @media only screen and (min-width: 1200px) {
-        /* .project {
-            margin-top: 2.5rem;
-        } */
         .project {
             width: 40vw;
-            /* margin: 2vw; */
         }
     }
 `;

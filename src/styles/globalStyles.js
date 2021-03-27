@@ -20,10 +20,10 @@ export const GlobalStyles = styled.main`
         height: 5vh;
         text-align: center;
     }
-    .contact-page {
+    /* .contact-page {
         min-height: 80vh;
         width: 100vw;
-    }
+    } */
 `;
 
 export const styledPage = styled.section`
